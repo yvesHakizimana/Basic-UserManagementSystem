@@ -47,7 +47,7 @@ public class UserController extends HttpServlet {
     }
 
 
-    private void listUser(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException, SQLException{
+    private void listUser(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException{
         List<User> listUser = userDao.selectAllUsers();
         req.setAttribute("listUser", listUser);
         RequestDispatcher dispatcher = req.getRequestDispatcher("user-list.jsp");
