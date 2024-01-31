@@ -10,7 +10,7 @@ public class Dbconnection {
     private static String jdbcUsername;
     private static String jdbcPassword;
 
-    public Connection connection() throws SQLException {
+    public Connection connectToDb() throws SQLException {
         Connection conn = null;
         try{
             Class.forName("org.postgresql.Driver");
