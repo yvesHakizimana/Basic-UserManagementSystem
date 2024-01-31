@@ -12,11 +12,11 @@ import java.util.List;
 public class UserDaoImpl implements userDao{
 
     //SQL  Statements
-    private static String INSERT_USERS_SQL = "INSERT INTO userDemo " + " (name , email , country) " + " VALUES " + " (?, ?, ?);";
-    private static String SELECT_USER_BY_ID = "SELECT id, name ,email , country FROM userDemo  where id = ? ;";
-    private static String SELECT_ALL_USERS = "SELECT id, name ,email , country FROM userDemo;";
-    private static String  DELETE_USER_BY_ID = "DELETE FROM userDemo where id = ?;";
-    private static String UPDATE_USER_BY_ID = "UPDATE userDemo set name = ? ,email = ? , country= ? where id = ? ;";
+    private static String INSERT_USERS_SQL = "INSERT INTO userdemo " + " (name , email , country) " + " VALUES " + " (?, ?, ?);";
+    private static String SELECT_USER_BY_ID = "SELECT id, name ,email , country FROM userdemo  where id = ? ;";
+    private static String SELECT_ALL_USERS = "SELECT id, name ,email , country FROM userdemo;";
+    private static String  DELETE_USER_BY_ID = "DELETE FROM userdemo where id = ?;";
+    private static String UPDATE_USER_BY_ID = "UPDATE userdemo set name = ? ,email = ? , country= ? where id = ? ;";
 
     Dbconnection dbconnection = new Dbconnection();
     @Override
