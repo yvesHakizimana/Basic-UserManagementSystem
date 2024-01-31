@@ -10,17 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aa1ee78-d627-41a3-afe9-f79d838dc71a" name="Changes" comment="user controller function">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/ListUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/ShowNewForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/updateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/ListUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/RegisterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/UpdateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/deleteUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/utils/Dbconnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/utils/Dbconnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/ShowNewForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/updateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/empcrud/web/EditUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/user-list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +67,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Dbconnection.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;JavaScript Debug.user-form.jsp.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
@@ -174,6 +178,8 @@
       <workItem from="1706639492878" duration="11000" />
       <workItem from="1706641568969" duration="2374000" />
       <workItem from="1706677013341" duration="15000" />
+      <workItem from="1706704426655" duration="1816000" />
+      <workItem from="1706720782516" duration="1499000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing project template">
       <option name="closed" value="true" />
