@@ -15,8 +15,7 @@
     <nav class="navbar navbar-expand-md navbar-dark"
          style="background-color: tomato">
         <div>
-            <a href="https://www.javaguides.net" class="navbar-brand"> User Management App </a>
-        </div>
+            <h1>User Management System</h1>
 
         <ul class="navbar-nav">
             <li>
@@ -24,17 +23,19 @@
                   </a>
             </li>
         </ul>
+        </div>
     </nav>
 </header>
 <br>
 <div class="container col-md-5">
     <div class="card">
         <div class="card-body">
+<%--            <jsp:useBean id="user" scope="request" type="com.code.empcrud.empcrud.model.User"/>--%>
             <c:if test="${user != null}">
-            <form action="update" method="post">
+            <form action="update-user" method="post">
                 </c:if>
                 <c:if test="${user == null}">
-                <form action="insert" method="post">
+                <form action="register-user" method="post">
                     </c:if>
 
 
@@ -50,24 +51,24 @@
                     </caption>
 
                     <c:if test="${user != null}">
-                        <input type="hidden" name="id" value="<c:out value='${user.id}' />" />
+                        <input type="hidden" name="id" value="<c:out value='${user.getId()}' />" />
                     </c:if>
 
                     <fieldset class="form-group">
                         <label>User Name</label> <input type="text"
-                                                        value="<c:out value='${user.name}' />" class="form-control"
+                                                        value="<c:out value='${user.getName()}' />" class="form-control"
                                                         name="name" required="required">
                     </fieldset>
 
                     <fieldset class="form-group">
                         <label>User Email</label> <input type="text"
-                                                         value="<c:out value='${user.email}' />" class="form-control"
+                                                         value="<c:out value='${user.getEmail()}' />" class="form-control"
                                                          name="email">
                     </fieldset>
 
                     <fieldset class="form-group">
                         <label>User Country</label> <input type="text"
-                                                           value="<c:out value='${user.country}' />" class="form-control"
+                                                           value="<c:out value='${user.getCountry()}' />" class="form-control"
                                                            name="country">
                     </fieldset>
 
